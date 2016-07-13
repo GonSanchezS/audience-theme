@@ -1,0 +1,81 @@
+/*
+Theme name: Audience Theme
+Description: Um tema desenvolvido por Bernardo Casanova
+Author: Bernardo Casanova
+Author URI: http://www.bernardocasanova.com
+Version: 1.0
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	position: relative;
+	width: 100%;
+	height: 120px;
+	background-color: #333333;
+	border-bottom: 1px solid #000000;
+}
+
+.container{
+	width: 1000px;
+	position: relative;
+	margin-left: -500px;
+	left: 50%;
+	margin-top: 30px
+}
+
+.centered_header{
+	position: relative;
+	width: 1000px;
+	height: 95px;
+	margin-left: -500px;
+	left: 50%;
+	padding-top: 25px;
+}
+
+.menu{
+	width: 100%;
+	position: relative;
+	height: 45px;
+	box-shadow: 2px 2px 2px #CCCCCC;
+	border-bottom: 1px solid #999999;
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(237,237,237,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+}
+
+.centered_menu{
+	position: relative;
+	width: 1000px;
+	height: 45px;
+	margin-left: -500px;
+	left: 50%;
+	line-height: 45px;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+li a{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+ 	color: #333333;
+	text-decoration: none;
+}
+
+li a:hover{
+	color: #000;
+	text-decoration: underline;
+}
